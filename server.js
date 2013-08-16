@@ -4,7 +4,7 @@ http.createServer(function (req, res) {
 
 	res.writeHead(200, { "Content-Type": "text/plain" });
 	res.write("This is a demo app");
-	res.end();
+	res.end("Fixed a bug");
 
 }).listen(3000);
 
